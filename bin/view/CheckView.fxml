@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="453.0" prefWidth="754.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="344.0" layoutY="14.0" text="CHECK OUT">
+         <font>
+            <Font name="Bell MT" size="24.0" />
+         </font>
+      </Label>
+      <TableView layoutX="127.0" layoutY="76.0" prefHeight="200.0" prefWidth="545.0">
+        <columns>
+          <TableColumn fx:id="titlecolumn" prefWidth="206.0" text="Title" />
+          <TableColumn fx:id="authorcolumn" prefWidth="125.0" text="Author" />
+            <TableColumn fx:id="noofcopycolumn" prefWidth="113.0" text="No. of Copies" />
+            <TableColumn fx:id="pricecolumn" prefWidth="100.0" text="Price AUD" />
+        </columns>
+      </TableView>
+      <Button fx:id="paybutton" layoutX="601.0" layoutY="346.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="66.0" text="PAY" />
+      <Label fx:id="totalprice" layoutX="634.0" layoutY="297.0" prefHeight="21.0" prefWidth="45.0" />
+      <Label layoutX="528.0" layoutY="297.0" prefHeight="21.0" prefWidth="98.0" text="Total Amount" />
+   </children>
+</Pane>

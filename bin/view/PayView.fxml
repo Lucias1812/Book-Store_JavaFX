@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="453.0" prefWidth="611.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="buybutton" layoutX="280.0" layoutY="362.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="75.0" text="BUY" />
+      <TextField fx:id="cardname" layoutX="77.0" layoutY="135.0" />
+      <TextField fx:id="cardnumber" layoutX="355.0" layoutY="135.0" />
+      <TextField fx:id="expdate" layoutX="77.0" layoutY="277.0" />
+      <TextField fx:id="cvv" layoutX="355.0" layoutY="277.0" />
+      <Label layoutX="77.0" layoutY="96.0" text="CARDHOLDER NAME" />
+      <Label layoutX="355.0" layoutY="96.0" text="CARD NUMBER" />
+      <Label layoutX="77.0" layoutY="242.0" text="EXPIRY DATE" />
+      <Label layoutX="355.0" layoutY="242.0" text="CVV" />
+      <Label layoutX="178.0" layoutY="25.0" text="CREDIT CARD DETAILS">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label fx:id="mess_label" layoutX="179.0" layoutY="65.0" prefHeight="21.0" prefWidth="269.0" />
+   </children>
+</Pane>

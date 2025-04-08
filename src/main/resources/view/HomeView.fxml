@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="676.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="edituser" layoutX="559.0" layoutY="14.0" mnemonicParsing="false" text="Edit Profile" />
+      <Label fx:id="welcomeLabel" layoutX="11.0" layoutY="14.0" prefHeight="31.0" prefWidth="182.0" />
+      <TableView fx:id="bookTableView" layoutX="11.0" layoutY="83.0" prefHeight="200.0" prefWidth="655.0">
+        <columns>
+          <TableColumn fx:id="titleColumn" prefWidth="248.0" text="Book Title" />
+          <TableColumn fx:id="authorColumn" prefWidth="87.0" text="Author" />
+            <TableColumn fx:id="copiesColumn" prefWidth="116.0" text="Physical Copies" />
+            <TableColumn fx:id="priceColumn" prefWidth="108.0" text="Price (AUD)" />
+            <TableColumn fx:id="soldColumn" prefWidth="95.0" text="Copies Sold" />
+        </columns>
+      </TableView>
+      <Button fx:id="shopcart" layoutX="418.0" layoutY="14.0" text="Shopping Cart" />
+      <Button fx:id="logout" layoutX="540.0" layoutY="332.0" text="Logout" />
+   </children>
+</Pane>
